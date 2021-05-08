@@ -1,0 +1,193 @@
+body {
+  background-attachment: fixed;
+  background-image: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  padding: 15px 10px 1px 5px;
+}
+
+button:focus:active {
+  font-weight: bold;
+}
+
+ul {
+  color: pink;
+  font-family: "Noticia Text", serif;
+  font-size: 11px;
+  font-weight: 200;
+  line-height: 20px;
+  list-style: none;
+  text-align: right;
+  position: relative;
+  bottom: 154px;
+  right: 25px;
+}
+
+.container {
+  background-color: rgb(46, 30, 48);
+  border-radius: 20px;
+  box-shadow: 5px 10px 10px 5px rgba(15, 15, 15);
+  max-height: 500px;
+  max-width: 400px;
+}
+
+.weather-app {
+  font-size: 10px;
+  margin: 30px auto;
+  padding: 4px;
+  max-height: 315px;
+  max-width: 377px;
+}
+
+.search-city-form {
+  padding: 10px 20px;
+}
+
+.form-control {
+  border-radius: 10px;
+  font-family: "Noticia Text", serif;
+  font-size: 12px;
+  max-width: 152px;
+}
+
+.search-city-button {
+  border-radius: 9px;
+  position: relative;
+  right: 80px;
+}
+
+.geolocation-button {
+  border-radius: 9px;
+  position: relative;
+  right: 110px;
+}
+
+.search-city-button,
+.geolocation-button {
+  background-color: transparent;
+  color: white;
+  padding: 5px 10px;
+}
+
+.search-city-button:hover,
+.geolocation-button:hover {
+  background-color: transparent;
+  border-color: pink;
+  color: pink;
+  transition: all 200ms ease-in-out;
+}
+
+.temperature-units {
+  color: white;
+  font-size: 13px;
+  font-weight: 100;
+  text-align: right;
+  position: relative;
+  bottom: 35px;
+  right: 50px;
+}
+
+#celsius-link,
+#fahrenheit-link {
+  color: pink;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+#celsius-link:hover,
+#fahrenheit-link:hover {
+  font-weight: 400;
+}
+
+.current-date-and-time {
+  color: #ffffff;
+  font-family: "Noticia Text", serif;
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.city {
+  color: pink;
+  font-family: "Stea", cursive;
+  font-size: 45px;
+  margin-top: 28px;
+  text-align: center;
+}
+
+.weather-description {
+  color: pink;
+  font-family: "Sacramento", cursive;
+  font-size: 28px;
+  position: relative;
+  bottom: 10px;
+  left: 27px;
+}
+
+.weather-icon {
+  position: relative;
+  bottom: 5px;
+  left: 30px;
+}
+
+.current-temperature {
+  color: white;
+  display: block;
+  font-family: "Noticia Text", serif;
+  font-size: 40px;
+  font-weight: 500;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  bottom: 90px;
+}
+
+#maximum-temperature,
+#minimum-temperature,
+#humidity,
+#wind {
+  color: white;
+  font-weight: 300;
+}
+
+.hr-1 {
+  color: white;
+  margin: -3px 25px 25px 25px;
+  max-width: 600px;
+}
+
+.daily-forecast {
+  color: white;
+  font-family: "Noticia Text", serif;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 31px;
+  margin: -3px 15px 15px 15px;
+  text-align: center;
+}
+
+#day-temperature-forecast {
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.footer {
+  font-family: "Noticia Text", serif;
+  font-size: 11px;
+  margin-top: 60px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.coder-link,
+.github-link {
+  color: pink;
+}
